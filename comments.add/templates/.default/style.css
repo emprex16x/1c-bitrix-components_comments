@@ -1,0 +1,57 @@
+input[type="text"],textarea {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0;
+    max-width: 750px;
+}
+
+.comments-list-submit {
+    margin: 40px 0;
+}
+
+.comments-list-submit__msg--error {
+    color: #fb4f4f;
+    font-weight: bold;
+}
+
+.comments-list-submit__msg--sent {
+    color: #00a53a;
+}
+
+.rating-select__title {
+	display: inline-block;
+	margin-right: 10px;
+}
+.rating-select__list {
+	 transform: scaleX(-1);
+	 display: inline-block;
+}
+.rating-select__list input {
+	display:none;
+}
+
+.rating-select__list label {
+	font-size: 20px;
+}
+
+.rating-select__list label:before {
+	content: '\2605';
+	color: #ccc;
+	font-style: normal;
+}
+.rating-select__list input:checked  ~ label:before {
+	color: #ffaf02;
+}
+
+.comments-list__comment-reply {
+    border: 0;
+    padding: 0;
+    background: none;
+    color: #ccc;
+}
+
+.comments-list__comment-reply:hover {
+    color: #ffaf02;
+    cursor: pointer;
+}

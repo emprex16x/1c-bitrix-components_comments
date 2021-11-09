@@ -1,0 +1,19 @@
+.comments-list__comment {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.comments-list__thread .comments-list__thread {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.star-rating i:before {
+	content: '\2605';
+	color: #ccc;
+	font-style: normal;
+}
+
+.star-rating i.checked:before {
+	color: #ffaf02;
+}
